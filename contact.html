@@ -17,6 +17,7 @@
     <script src="script.js" defer></script>
 
 </head>
+
 <body>
     <main>
         <nav>
@@ -27,7 +28,40 @@
             <a href="index.html"><img src="assets\logotype.svg" alt="Zepp Designs"></a>
             <a href="contact.html"><button>Contact</button></a>
         </nav>
-        <h1>Contact</h1>
+        <form action="submit_form.php" method="POST">
+            <h1 class="contact">Contact Me</h1>
+
+            <div class="name">
+                <div class="form-item">
+                    <label for="name">First Name:</label>
+                    <input type="text" id="first" name="name" required>
+                </div>
+    
+                <div class="form-item">
+                    <label for="name">Last Name:</label>
+                    <input type="text" id="last" name="name" required><br>
+                </div>
+            </div>
+
+            <div class="form-item">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+            </div>
+
+            <div class="form-item">
+                <label for="name">Subject:</label>
+                <input type="text" id="subject" name="name" required><br>
+            </div>
+
+            <div class="form-item">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br>
+            </div>
+
+            <div class="form-item">
+                <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
         <footer>
             <p><span>Zepp Designs</span></p>
         </footer>

@@ -23,6 +23,10 @@ div {
     margin-left: 60px;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav a {
     text-decoration: none;
     color: #000;
@@ -146,7 +150,7 @@ img.info-image {
 
 button.white {
     background-color: white;
-    color:black;
+    color: black;
 }
 
 footer {
@@ -163,7 +167,8 @@ footer p {
     font-family: "Poppins-regular";
     color: black;
 }
-.portfolio-container{
+
+.portfolio-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -173,10 +178,12 @@ footer p {
     margin: auto;
     margin-bottom: 100px;
 }
-h1.portfolio{
+
+h1.portfolio {
     margin: 0;
     padding: 100px;
 }
+
 img.portfolio-image {
     width: 600px;
     height: 360px;
@@ -185,13 +192,16 @@ img.portfolio-image {
     box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.25);
     margin-bottom: 10px;
 }
-.portfolio-project{
+
+.portfolio-project {
     margin: 0;
     padding: 0;
 }
-#poster{
+
+#poster {
     height: 1012px;
 }
+
 img.about-image {
     width: 1300px;
     height: 700px;
@@ -202,7 +212,8 @@ img.about-image {
     margin-top: 100px;
     margin-bottom: 50px;
 }
-.about-container{
+
+.about-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -210,7 +221,8 @@ img.about-image {
     margin: auto;
     margin-bottom: 100px;
 }
-.about-me{
+
+.about-me {
     width: 1300px;
     height: 360px;
     display: flex;
@@ -220,15 +232,18 @@ img.about-image {
     margin: 0;
     margin-bottom: -40px;
 }
-h1.about-header{
+
+h1.about-header {
     margin: 0;
     padding: 0;
 }
-p.bio{
+
+p.bio {
     width: 720px;
     margin: 0;
 }
-.skills{
+
+.skills {
     width: 1300px;
     height: 600px;
     display: flex;
@@ -239,19 +254,22 @@ p.bio{
     margin: 0;
     padding: 0;
 }
-h1.skills-header{
+
+h1.skills-header {
     width: 300px;
     text-align: left;
     margin: 0;
     padding: 0;
 }
-.skill{
+
+.skill {
     width: 420px;
     margin: 0;
     margin-bottom: 30px;
     padding: 0;
 }
-.discover{
+
+.discover {
     width: 1300px;
     height: 200px;
     display: flex;
@@ -264,13 +282,15 @@ h1.skills-header{
     margin-top: 20px;
     padding: 0;
 }
-h1.discover-header{
+
+h1.discover-header {
     width: 300px;
     text-align: left;
     margin: 0;
     padding: 0;
 }
-.button-column{
+
+.button-column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -279,7 +299,8 @@ h1.discover-header{
     margin: 0;
     padding: 0;
 }
-button.link{
+
+button.link {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -291,4 +312,91 @@ button.link{
     color: white;
     margin: 0;
     padding: 20px;
+}
+
+h1.contact {
+    margin: 0;
+    padding: 100px;
+    text-align: left;
+    width: 1000px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    width: 1000px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+input#first {
+    width: 480px;
+}
+
+input#last {
+    width: 480px;
+}
+
+textarea {
+    width: 1000px;
+    height: 240px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 5px;
+}
+
+label {
+    font-size: 1.5em;
+    font-family: "Poppins-Medium";
+    letter-spacing: 1.92px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.form-item {
+    width: 1000px;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+input#submit {
+    width: 180px;
+    height: 45px;
+    margin-right: 45px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-family: 'Poppins-Regular';
+    font-size: 1.2rem;
+    box-shadow: 0px 7.5px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    margin-bottom: 100px;
+    align-self: flex-start;
 }
