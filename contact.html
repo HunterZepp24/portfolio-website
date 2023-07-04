@@ -28,18 +28,18 @@
             <a href="index.html"><img src="assets\logotype.svg" alt="Zepp Designs"></a>
             <a href="contact.html"><button>Contact</button></a>
         </nav>
-        <form id="contactForm" netlify>
+        <form action="submit_form.php" method="POST" netlify>
             <h1 class="contact">Contact Me</h1>
 
             <div class="name">
                 <div class="form-item">
                     <label for="name">First Name:</label>
-                    <input type="text" id="first" name="name" required>
+                    <input type="text" id="first" name="first" required>
                 </div>
     
                 <div class="form-item">
                     <label for="name">Last Name:</label>
-                    <input type="text" id="last" name="name" required><br>
+                    <input type="text" id="last" name="last" required><br>
                 </div>
             </div>
 
@@ -50,7 +50,7 @@
 
             <div class="form-item">
                 <label for="name">Subject:</label>
-                <input type="text" id="subject" name="name" required><br>
+                <input type="text" id="subject" name="subject" required><br>
             </div>
 
             <div class="form-item">
