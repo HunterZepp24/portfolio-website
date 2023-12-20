@@ -178,6 +178,9 @@ button.white {
         column-gap: 100px;
         justify-content: center;
         margin: auto;
+    }
+
+    #portfolio-bottom {
         margin-bottom: 100px;
     }
 
@@ -312,6 +315,22 @@ button.white {
         font-family: "Poppins-SemiBold";
         letter-spacing: 1.92px;
         color: white;
+        margin: 0;
+        padding: 20px;
+        transition: cursor 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+    }
+
+    button.portfolio {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 600px;
+        height: 100px;
+        font-size: 1.75em;
+        font-family: "Poppins-SemiBold";
+        letter-spacing: 1.92px;
+        color: white;
+        border-radius: 20px;
         margin: 0;
         padding: 20px;
         transition: cursor 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
@@ -466,6 +485,10 @@ button.white {
         justify-content: space-between;
         align-items: center;
         margin: 0;
+    }
+
+    .project-spacer {
+        margin-top: 50px;
     }
 
     h1.project-header {
