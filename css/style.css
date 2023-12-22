@@ -463,9 +463,10 @@ button.white {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        width: 1300px;
         row-gap: 50px;
-        column-gap: 50px;
-        justify-content: center;
+        justify-content: space-between;
+        align-content: space-between;
         margin: auto;
         margin-top: 50px;
     }
