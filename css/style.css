@@ -403,7 +403,7 @@ label {
     padding: 0;
 }
 
-input#submit {
+button#submit {
     width: 180px;
     height: 45px;
     margin-right: 45px;
@@ -419,7 +419,7 @@ input#submit {
     align-self: flex-start;
 }
 
-input#submit:hover {
+button#submit:hover {
     cursor: pointer;
     background: linear-gradient(180deg, #D9FF1A 0%, #64FF00 100%);
     color: black;
